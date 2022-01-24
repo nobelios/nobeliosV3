@@ -1,0 +1,48 @@
+/* Feuille de style des formulaires */
+
+.menu a {
+	height: 150px;
+	width: 200px;
+	display: block;
+}
+
+.icon_electronic {
+	height: 150px;
+	width: 200px;
+	background-image: url(../images/icon_electronic_details.png);
+	float: left;
+	margin-right: 50px;
+	margin-top: 100px;
+	background-position: 0px 0px;
+}
+
+.icon_electronic:hover {
+	background-position: 0px -150px;
+}
+
+.icon_chemistry {
+	height: 150px;
+	width: 200px;
+	background-image: url(../images/icon_chemistry_details.png);
+	float: left;
+	margin-right: 50px;
+	margin-top: 100px;
+	background-position: 0px 0px;
+}
+
+.icon_chemistry:hover {
+	background-position: 0px -150px;
+}
+
+.icon_theory {
+	height: 150px;
+	width: 200px;
+	background-image: url(../images/icon_theory_details.png);
+	float: left;
+	margin-top: 100px;
+	background-position: 0px 0px;
+}
+
+.icon_theory:hover {
+	background-position: 0px -150px;
+}

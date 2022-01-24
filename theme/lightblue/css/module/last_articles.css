@@ -1,0 +1,171 @@
+/* ---------------------------------------------------------------------------------------------------------- */	
+/*                                          Module Liste Derniers Articles                                    */		
+/* ---------------------------------------------------------------------------------------------------------- */
+
+h1 {
+	padding:			0 0 3px 10px;
+	font-size:			30px;
+	text-transform:		capitalyse;
+	font-variant: 		small-caps;
+	display:			block;
+	color:				#999999;
+	border-bottom:		3px solid #999999;
+	margin:				0;
+}
+
+div.module_25 {
+	-moz-box-sizing: 	border-box; box-sizing: border-box;
+	float:				left;
+	width:				25%;
+	min-height:			100px;
+	-moz-background-origin: content-box; -webkit-background-origin:  content-box; -ms-background-origin: content-box; -o-background-origin: content-box; background-origin: content-box;
+}
+
+div.module_33 {
+	-moz-box-sizing: 	border-box; box-sizing: border-box;
+	float:				left;
+	width:				33%;
+	min-height:			100px;
+	-moz-background-origin: content-box; -webkit-background-origin:  content-box; -ms-background-origin: content-box; -o-background-origin: content-box; background-origin: content-box;
+}
+
+div.module_34 {
+	-moz-box-sizing: 	border-box; box-sizing: border-box;
+	float:				left;
+	width:				34%;
+	min-height:			100px;
+	-moz-background-origin: content-box; -webkit-background-origin:  content-box; -ms-background-origin: content-box; -o-background-origin: content-box; background-origin: content-box;
+}
+
+div.module_50 {
+	-moz-box-sizing: 	border-box; box-sizing: border-box;
+	float:				left;
+	width:				50%;
+	min-height:			100px;
+	-moz-background-origin: content-box; -webkit-background-origin:  content-box; -ms-background-origin: content-box; -o-background-origin: content-box; background-origin: content-box;
+}
+
+div.module_66 {
+	-moz-box-sizing: 	border-box; box-sizing: border-box;
+	float:				left;
+	width:				66%;
+	min-height:			100px;
+	-moz-background-origin: content-box; -webkit-background-origin:  content-box; -ms-background-origin: content-box; -o-background-origin: content-box; background-origin: content-box;
+}
+
+div.module_75 {
+	-moz-box-sizing: 	border-box; box-sizing: border-box;
+	float:				left;
+	width:				75%;
+	-moz-background-origin: content-box; -webkit-background-origin:  content-box; -ms-background-origin: content-box; -o-background-origin: content-box; background-origin: content-box;
+}
+
+div.module_100 {
+	-moz-box-sizing: 	border-box; box-sizing: border-box;
+	float:				left;
+	width:				100%;
+	min-height:			100px;
+	-moz-background-origin: content-box; -webkit-background-origin:  content-box; -ms-background-origin: content-box; -o-background-origin: content-box; background-origin: content-box;
+}
+
+
+div.module_100 div.module_66 {
+	height:				450px;
+}
+
+
+
+
+div.module_100 div.module_66 div.article_header {
+	-moz-box-sizing: 	border-box; box-sizing: border-box;
+	height:				80px;
+	float: 				left;
+	padding:		    5px 0 0 20px;
+	margin:				0px 0;
+}
+
+div.module_100 div.module_66  div.article_header h2 {
+	color:				#333333;
+	padding: 			0;
+	margin: 			0;
+}
+
+div.module_100 div.module_66  div.article_header a {
+	color:				#333333;
+	text-decoration:	none;
+}
+
+div.module_100 div.module_66  div.article_header a:hover{
+	text-decoration:	underline;
+}
+
+div.module_100 div.module_66  div.article_header p {
+	font-size: 			13px;
+	color: 				#333333;
+	padding:			0;
+	margin: 			0;
+}
+
+
+div.boxContent {	
+	padding:			5px;
+}
+
+
+div.module_100 div.module_66 div.content{
+	-moz-box-sizing: 	border-box; box-sizing: border-box;
+	height:				360px;
+	margin:				0 0px 10px 0px;
+	/*border-top:			3px solid #999999;*/
+	padding:			20px;
+	background-color:	#EAEAEA;
+}
+
+div.module_100 div.module_66 div.content h3 {
+	margin:				0 0 5px 0;
+}
+
+div.module_100 div.module_66 div.content p {
+	padding:			0;
+	margin:				0;
+}
+
+
+div.module_100 div.module_34 div.content{
+	-moz-box-sizing: 	border-box; box-sizing: border-box;
+	/*background-color:	#EAEAEA;*/
+	height:				80px;
+	margin:				0 0 10px 0;
+	padding:			5px;
+}
+
+div.module_100 div.module_34 div.content:hover{
+	background-color:	#EAEAEA;
+}
+
+
+/* Animation des options */
+@keyframes overlink
+{
+	from {width: 85px;}
+	to {width: 100%;}
+}
+
+@-webkit-keyframes overlink /* Safari and Chrome */
+{
+	from {width: 85px;}
+	to {width: 100%;}
+}
+
+
+
+div.backslide {
+background-color: white; opacity: 0.5; height: 80px; width: 85px; position: absolute; margin: -5px 0 0 -5px; cursor: pointer; -moz-box-sizing: border-box; box-sizing: border-box;
+}
+
+div.module_100 div.module_34 div.content:hover div.backslide {
+	width: 100%;
+	animation:				overlink 1s;
+	-webkit-animation:		overlink 1s;
+}
+

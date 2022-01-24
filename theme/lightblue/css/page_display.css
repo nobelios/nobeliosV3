@@ -1,0 +1,209 @@
+/* Mise en content du contenu généré */
+
+/*
+li {
+	padding: 100px;}	
+	
+ul {
+	padding: 100px;}
+
+ul li {
+	padding: 100px;}
+	
+ol {
+	padding: 100px;}
+	
+ol li {
+	padding: 100px;}
+*/
+
+/*
+div .columne1{
+	padding: 100px;}
+*/
+
+#reader {
+	min-height:			50px;
+	width: 				100%;
+	margin:				10px auto; }
+	
+#page_content {
+	padding-bottom:		10px;
+}
+	
+#page_content div {
+	margin:				0;
+}
+
+#page_content div:after {
+	visibility: 		hidden;
+	display:			block;
+	clear:				both;
+	content:			" ";
+	height:				0;
+}		
+	
+#page_content div.columne2{
+	columns: 			2;
+	-webkit-columns: 	2;
+	-moz-columns:		2;
+	column-gap: 		2em;
+	-webkit-gap: 		2em;
+	-moz-column-gap: 	2em; }
+	
+#page_content div.columne3{
+	columns: 			3;
+	-webkit-columns: 	3;
+	-moz-columns:		3;
+	column-gap: 		2em;
+	-webkit-gap: 		2em;
+	-moz-column-gap: 	2em; }
+	
+#page_content div.columne4{
+	columns: 			4;
+	-webkit-columns: 	4;
+	-moz-columns:		4;
+	column-gap: 		2em;
+	-webkit-gap: 		2em;
+	-moz-column-gap: 	2em; }
+	
+#page_content p {
+	margin: 			0;
+	padding-bottom: 	1em; }
+
+#page_content p.left {
+	width:				initial;
+	text-align:			left; }
+	
+#page_content p.right {
+	width:				initial;
+	text-align:			right; }
+	
+#page_content p.center {
+	width:				initial;
+	text-align:			center; }
+
+#page_content p.justify {
+	width:				initial;
+	text-align:			justify; }
+	
+#page_content img.left {
+	float: 				left;
+	margin: 			0.5em 0.5em 0.5em 0em;
+	padding:			15px;
+	background-color:	#ececec;
+	border:				1px solid #d6d6d6; }
+
+#page_content img.right {
+	float: 				right; 
+	margin: 			0.5em 0em 0.5em 0.5em;
+	padding:			15px;
+	background-color:	#ececec;
+	border:				1px solid #d6d6d6; }
+
+#page_content img.center {
+	width:				initial;
+	height:				initial;
+	margin: 			0.5em 0.5em 0.5em 0.5em;
+	padding:			15px;
+	background-color:	#ececec;
+	border:				1px solid #d6d6d6; }
+
+#page_content span.red {
+	color:				red; }
+
+#page_content span.orange {
+	color:				orange; }	
+	
+#page_content span.green {
+	color:				green; }
+	
+#page_content span.blue {
+	color:				blue; }
+
+#page_content div.info {
+	width:				auto;
+	margin:				0px 20px 10px 20px;
+	padding-left:		20px;
+	border-radius:		5px;
+	background-color:	#e1e3ff;
+}
+
+#page_content div.message {
+	width:				auto;
+	margin:				0px 20px 10px 20px;
+	padding-left:		20px;
+	border-radius:		5px;
+	background-color:	#e8e8e8;
+}
+
+#page_content div.orange {
+	width:				auto;
+	margin:				0px 20px 10px 20px;
+	padding-left:		20px;
+	border-radius:		5px;
+	background-color:	#ffe4b0;
+}
+
+#page_content div.code {
+	width:				auto;
+	margin:				0px 20px 10px 20px;
+	padding-left:		20px;
+	border-radius:		5px;
+	background-color:	#8e8e8e;
+}
+
+#page_content div.info p, div.warning p, div.message p, div.orange p {
+	padding:			10px;
+}
+
+#summary ol { 
+	counter-reset: item }
+	
+#summary li { 
+	display: block }
+
+#summary li:before { 
+	content: counters(item, ".") ". " ; counter-increment: item }
+
+/*	
+#summary ol ol {
+	display: 			none; }
+	
+#summary li:hover ol, li li:hover ol {
+	display:			block; }
+*/	
+	
+/* Affichage des chapitres */
+
+#page_content {
+	counter-reset: chap_lv_1; }
+	
+#page_content h2:before  { 
+	content: counter(chap_lv_1, decimal) ". "; counter-increment: chap_lv_1 }
+
+#page_content h2 {
+	counter-reset: chap_lv_2; }  
+
+#page_content h3:before  { 
+	content: counter(chap_lv_1, decimal) "." counter(chap_lv_2, decimal) ". "; counter-increment: chap_lv_2 }
+
+#page_content h3 {
+	counter-reset: chap_lv_3; }  
+	
+#page_content h4:before  { 
+	content: counter(chap_lv_1, decimal) "." counter(chap_lv_2, decimal) "." counter(chap_lv_3, decimal) ". "; counter-increment: chap_lv_3 }  
+
+	
+/*
+gras
+italique
+souligne
+barre
+couleur
+
+lien interne
+lien externe
+
+tableau
+*/

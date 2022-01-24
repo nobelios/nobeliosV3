@@ -1,0 +1,29 @@
+/* Editeur de pages */
+
+input[type=text] {
+	background-color: 	#FFFFFF;
+	border: 			1px solid #666666;
+	height: 			30px; 
+	padding: 			0px; 
+	margin: 			0px; 
+	padding: 			0px 10px;
+	line-height: 		30px;
+	font-weight: 		normal;
+	font-family: 		arial;
+	font-size: 			14px; }
+}
+
+select {
+	line-height:38px; padding: 20px; color: red; height: 20px; font-size: 30px;
+}
+
+option {
+	height: 		24px; 
+	margin: 		0; 
+	padding-top: 	4px;
+	font-size:		14px;
+}
+
+option:hover {
+	background-color:	grey;
+}

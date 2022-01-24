@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+	
+    <head>
+        <meta charset="utf-8" />
+        <title>PAGE DE TEST POUR CSS</title>
+		
+		<!-- Feuilles de style !-->
+		<link rel="stylesheet" href="./theme/lightblue/css/intro.css" type="text/css" />
+		<link rel="stylesheet" href="./theme/lightblue/css/form.css" type="text/css" />
+	</head>
+	
+	<body style="margin: 0px; padding: 0px; background-color: #025ea9;">
+
+		<!--  Header !-->
+		<div class="header">
+			<div style="width: 1024px; margin: auto;">
+				<div style="float: left; height: 40px; width:170px; background-image: url(./theme/lightblue/images/nobelios_logo_text_normal.png); margin: 10px 0px;"><a style="background-color: red; width: 170px; height: 40px;" href="./index.php"> </a></div>
+			</div>
+		</div>
+		
+	<!--  Body !-->
+		<div style="background-color: #f7f7f7; border-bottom: 1px solid black;">
+			
+				<div style="width: 506px; min-height: 500px; margin: auto;">
+					<form method="post" action="./inscription.php">
+						<div style="height: 10px;"></div>
+						<h2 style="font-family: arial; margin: 0px;">INSCRIPTION</h1>
+						<div style="height: 10px;"></div>
+						
+						<div style="float: left; width: 300px; ">
+							
+							<!-- login !-->
+							<div class="input-control text">
+								<input style="width: 278px; height: 30px; padding: 0px; margin: 0px; font-family: arial; font-size: 14px; padding: 0px 10px;" 
+									type="text"
+									id="login" 
+									oninput="checkLogin()" 
+									name="login" 
+									maxlength="40"
+									placeholder="login"
+								
+									autocomplete="off"
+								/>
+							</div>
+							
+							<div style="height: 10px;"></div>
+							
+							<!-- email !-->
+							<div class="input-control text">
+								<input 
+									class="inputText" 
+									style="width: 278px;"
+									type="email"
+									id="email1" 
+									oninput="checkEmail()" 
+									name="email1" 
+									maxlength="40"
+									placeholder="email"
+									
+									autocomplete="off"
+								/>
+							</div>
+							
+							<div style="height: 10px;"></div>
+							
+							<!-- confirmation email !-->
+							<div class="input-control text">
+								<input 
+									class="inputText" 
+									style="width: 278px;" 
+									type="email"
+									id="email2" 
+									oninput="checkEmail()" 
+									name="email2" 
+									maxlength="40"
+									placeholder="confirmer email"
+									
+									autocomplete="off"
+									disabled
+								/>
+							</div>
+							
+							<div style="height: 10px;"></div>
+							
+							<!-- mot de passe !-->						
+							<div class="input-control password">
+								<input style="width: 278px; height: 30px; padding: 0px; margin: 0px; font-family: arial; font-size: 14px; padding: 0px 10px; border: 1px"
+									type="password"
+									id="password1" 
+									oninput="checkPasswords()" 
+									name="password1"
+									maxlength="40"									
+									placeholder="mot de passe"
+								
+									autocomplete="off"
+								/>
+							</div>
+							
+							<div style="height: 10px;"></div>
+							
+							<!-- confirmation mot de passe !-->
+							<div class="input-control password">
+								<input style="width: 278px; height: 30px; padding: 0px; margin: 0px; font-family: arial; font-size: 14px; padding: 0px 10px;"
+									type="password"
+									id="password2" 
+									oninput="checkPasswords()" 
+									name="password2"
+									maxlength="40"									
+									placeholder="confirmer mot de passe"
+									
+									autocomplete="off"
+									disabled
+								/>
+							</div>
+
+						   
+						    
+								<div style="height: 10px;"></div>
+								
+								<!-- anti-robot !-->
+								<div style="float: left; height: 32px; line-height: 32px;">
+									
+										echo $messages_translation['form']['registration']['anti_robot_legend'];
+										antiRobotQuestion();
+								
+								</div>
+								<div class="input-control text" style="float: right;">
+									<input style="width: 25px; height: 30px; padding: 0px; margin: 0px; font-family: arial; font-size: 14px; padding: 0px 10px;"
+										type="text"
+										id="antiRobotResponse" 
+										oninput="checkAntiRobot()" 
+										name="antiRobotResponse"
+										maxlength="3"
+										
+										autocomplete="off"
+									/>
+								</div>
+							
+							
+							<div style="clear: left;"></div>
+						</div>
+						<div style="float: left; width: 196px; height: 200px; margin-left: 10px; border: 0px solid #abadb3; background-image: url(./theme/lightblue/images/nobelios_logo_normal.png);"></div>
+						<div style="clear: left"></div>
+						<div style="height: 10px;"></div>
+						
+						<!-- termes d'utilisation !-->
+						<textarea style="width: 500px; height: 200px;" readonly="readonly">termes</textarea>
+						
+						<div style="height: 10px;"></div>
+						
+						<!-- checkbox termes d'utilisation !-->
+						<input
+							type="checkbox" 
+							name="termsOfUse" 
+							id="termsOfUse" 
+							onclick="checkTermsOfUse()" 
+							value="accepted"
+						/>
+						
+						<font style="font-family: arial; font-size: 14px;">legende</font>
+						
+						<div style="height: 10px;"></div>
+						
+						<!-- envoyer !-->
+						<input 
+							type="submit" 
+							id="submit" 
+							value="envoyer" 
+							style="width: 100px; height: 30px; padding: 0px; margin-left: -1px; font-family: arial; font-size: 14px" 
+							disabled 
+						/>
+						
+						<div style="height: 10px;"></div>
+					</form>
+				</div>
+				
+				<!--[if lt IE 10]>
+					<script type="text/javascript" >
+						Placeholder.init({
+							classFocus: "normal",
+							classBlur:  "placeholder",
+							wait: true
+						});
+					</script>
+				<![endif]-->
+
+		</div>
+		
+		<div style="background-color: #025ea9; height: 100px;">
+			<div style="width: 1024px; margin: auto;">
+				<div style="height: 20px;"></div>
+				<div style="height: 48px; width: 204px; float: left; background-image: url(./theme/lightblue/images/icon_cc_footer.png);"></div>
+				<div style="width: 10px; height: 42px; float: left;"></div>
+				<div style="height: 48px; width: 42px; float: left; background-image: url(./theme/lightblue/images/icon_cc_by_fr_footer.png);"></div>
+				<div style="width: 10px; height: 42px; float: left;"></div>
+				<div style="height: 48px; width: 42px; float: left; background-image: url(./theme/lightblue/images/icon_cc_s_footer.png);"></div>
+				<div style="width: 10px; height: 42px; float: left;"></div>
+				<div style="height: 48px; width: 42px; float: left; background-image: url(./theme/lightblue/images/icon_cc_eq_footer.png);"></div>
+				<div style="height: 48px; width: 42px; float: right; background-image: url(./theme/lightblue/images/icon_css3_footer.png);"></div>
+				<div style="width: 10px; height: 42px; float: right;"></div>
+				<div style="height: 48px; width: 42px; float: right; background-image: url(./theme/lightblue/images/icon_html5_footer.png);"></div>
+				<div style="clear:both;"></div>
+			</div>
+		</div>
+		
+    </body>

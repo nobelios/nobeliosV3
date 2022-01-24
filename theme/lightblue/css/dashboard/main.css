@@ -1,0 +1,58 @@
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section { display: block; }
+
+html {
+	height: 				100%;
+	font-family:			arial;
+}
+
+body {
+	height:					100%;
+	margin: 				0px;
+	padding: 				0px;
+	background-color:		#025ea9;
+}
+
+#main_wrapper {
+	width: 					100%;
+    margin: 				auto;
+	background-color: 		#F7F7F7;
+}
+
+#header_wrapper {
+	width: 					1000px;
+	margin: 				auto;
+	background: 			none;
+}
+
+#body_wrapper {
+	min-height:				600px;
+	width: 					1000px;
+    margin: 				auto;
+	background:				none;
+}
+
+header {
+	height: 				44px;
+	background-color:		#025ea9;
+	background-image:		url(../../images/header_details.jpg);
+	border-bottom:			1px solid black;
+	margin-bottom:			10px;
+}
+
+header a.logo {
+	display:				block;
+	float:					left;
+	height:					44px;
+	width:					170px;
+	background-image:		url(../../images/nobelios_logo_text_normal.png);
+	background-position:	left center;
+	background-repeat:		no-repeat;
+	padding:				0px;
+	margin:					0px;
+}
+
+footer {
+	padding-top:			25px;
+	background-color:		#025ea9;
+	border-top:				1px solid black;
+}

@@ -1,0 +1,107 @@
+<!-- Fil d'ariane !-->
+			<?php include_once(breadcrumb($cat)); ?>
+			
+			<!-- Menu fix !-->
+			<?php if ($cat == 0) { ?>
+				
+				<div class="menu">
+				
+					<div class="title">
+						<h2>Nobelios</h2>
+					</div>
+					
+					<div class="section">
+						<div class="thumb" style="background-image: url(./theme/lightblue/images/icon_site_forum.png);"></div>
+						<div class="text">
+							<h2>Forum</h2>
+							<p></p>	
+						</div>
+						<a href="./pages_list.php?cat=1:1" style="position: absolute; width: 334px; height: 100px; margin: -10px 0 0 -10px;"></a>
+					</div>
+					
+					<div class="section">
+						<div class="thumb" style="background-image: url(./theme/lightblue/images/icon_site_news.png);"></div>
+						<div class="text">
+							<h2>News</h2>
+							<p></p>	
+						</div>
+						<a href="./pages_list.php?cat=1:1" style="position: absolute; width: 334px; height: 100px; margin: -10px 0 0 -10px;"></a>
+					</div>
+					
+					<div class="section" style="margin-right: 0px;">
+						<div class="thumb" style="background-image: url(./theme/lightblue/images/icon_site_rules.png);"></div>
+						<div class="text">
+							<h2>Règlement</h2>
+							<p></p>	
+						</div>
+						<a href="./pages_list.php?cat=1:1" style="position: absolute; width: 334px; height: 100px; margin: -10px 0 0 -10px;"></a>
+					</div>
+					
+					<div class="clearFloat"></div>
+				
+				</div>
+				
+			<?php } ?>
+			
+			<!-- Menu flex !-->			
+			<div class="menu">
+				<?php menuNodeListing($cat, $cat); ?>
+				<div class="clearFloat"></div>
+			</div>
+			
+			<?php if ($cat > 0) { ?>
+			
+			<div class="menu">
+			
+			<div class="title">
+				<h2>pages</h2>
+			</div>
+			
+			<div class="pageListBig">
+				<div class="thumb" style="background-image: url(./images/chimie1.jpg);"></div>
+				<div class="text">
+					<h2>Synthèse du leuco vert de malachite</h2>
+					<div class="level"><div class="legend">Cout:</div><div class="gauge" style="background-position: 0px -14px"></div></div>	
+					<div class="level"><div class="legend">Durée:</div><div class="gauge" style="background-position: 0px -28px"></div></div>	
+					<div class="level"><div class="legend">Risques:</div><div class="gauge" style="background-position: 0px -70px"></div></div>
+					<p>Le 01/02/13 par Nobelios</p>
+				</div>
+			</div>
+			
+			<div class="pageListBig">
+				<div class="thumb" style="background-image: url(./images/chimie2.jpg);"></div>
+				<div class="text">
+					<h2>Synthèse du salicylate de méthyle</h2>
+					<div class="level"><div class="legend">Cout:</div><div class="gauge" style="background-position: 0px -14px"></div></div>	
+					<div class="level"><div class="legend">Durée:</div><div class="gauge" style="background-position: 0px -28px"></div></div>	
+					<div class="level"><div class="legend">Risques:</div><div class="gauge" style="background-position: 0px -70px"></div></div>
+					<p>Le 01/02/13 par Nobelios</p>
+				</div>
+			</div>
+			
+			<div class="pageListBig">
+				<div class="thumb" style="background-image: url(./images/chimie3.jpg);"></div>
+				<div class="text">
+					<h2>Synthèse de la leuco 4-méthoxymalachite</h2>
+					<div class="level"><div class="legend">Cout:</div><div class="gauge" style="background-position: 0px -14px"></div></div>	
+					<div class="level"><div class="legend">Durée:</div><div class="gauge" style="background-position: 0px -28px"></div></div>	
+					<div class="level"><div class="legend">Risques:</div><div class="gauge" style="background-position: 0px -70px"></div></div>
+					<p>Le 01/02/13 par Nobelios</p>					
+				</div>
+			</div>	
+			
+			<div class="pageListBig">
+				<div class="thumb" style="background-image: url(./images/chimie4.jpg);"></div>
+				<div class="text">
+					<h2>Synthèse de l'hexamine</h2>
+					<div class="level"><div class="legend">Cout:</div><div class="gauge" style="background-position: 0px -14px"></div></div>	
+					<div class="level"><div class="legend">Durée:</div><div class="gauge" style="background-position: 0px -28px"></div></div>	
+					<div class="level"><div class="legend">Risques:</div><div class="gauge" style="background-position: 0px -70px"></div></div>	
+					<p>Le 01/02/13 par Nobelios</p>
+				</div>
+			</div>
+			
+			</div>
+			
+			<?php } ?>
+			

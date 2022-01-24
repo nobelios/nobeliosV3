@@ -1,0 +1,428 @@
+.clearFloat {
+	clear:				both; }
+
+/* ---------------------------------------------------------------------------------------------------------- */	
+/*                                               Entete de page                                               */		
+/* ---------------------------------------------------------------------------------------------------------- */
+	
+#miniHeader {
+	background-color: 	#025EA9; 
+	background-image: 	url(../images/header_details.jpg);
+	border-bottom: 		1px solid black;
+	height: 			60px; 		
+	color: 				#FFFFFF; 
+	font-weight: 		bold;
+	font-family: 		arial; }
+	
+#miniHeader .center {
+	width: 				1024px;
+	margin: 			auto; }
+
+#miniHeader .logo {
+	background-image: 		url(../images/nobelios_logo_text_normal.png);
+	background-position:	center;
+	float: 					left;
+	height: 				36px;
+	width: 					144px;
+	margin: 				12px 0px; }
+	
+#miniHeader .logoLink {
+	display:			block;
+	width: 				1440px;
+	height: 			36px; }
+	
+#miniHeader .logoLink:hover {
+	cursor:				pointer; }
+	
+#bigHeader {
+	background-color: 	#025EA9; 
+	background-image: 	url(../images/header_details.jpg);
+	border-bottom: 		1px solid black;
+	height: 			180px; 		
+	color: 				#FFFFFF; 
+	font-weight: 		bold;
+	font-family: 		arial; }
+	
+#bigHeader .center {
+	width: 				100%;
+	margin: 			auto; }
+
+#bigHeader .logo {
+	background-image: 	url(../images/nobelios_logo_text_details.png);
+	float: 				left;
+	height: 			120px;
+	width: 				400px;
+	margin: 			30px 0px; }
+	
+#bigHeader .logoLink {
+	display:			block;
+	width: 				170px;
+	height: 			40px; }
+	
+#bigHeader .logoLink:hover {
+	cursor:				pointer; }
+
+/* ---------------------------------------------------------------------------------------------------------- */	
+/*                                               Corps de page                                                */		
+/* ---------------------------------------------------------------------------------------------------------- */
+
+#content {
+	background-color:	#F7F7F7;
+	background-image:	url(../images/back.jpg);
+	background-repeat:	repeat-x;
+	border-bottom: 		1px solid black;
+	padding:			10px 0px; }
+	
+#content.center {
+	width: 				100%;
+	margin: 			auto; }
+	
+#alertBox {
+	width: 				680px;
+	padding: 			50px;
+	margin: 			0px auto;
+	font-family: 		arial; }
+	
+#alertBox.logo {
+	background-image: 	url(../images/nobelios_logo_normal.png);
+	width: 				196px;
+	height: 			200px;
+	display:			inline-block;
+	vertical-align:		middle; }
+	
+#alertBox.text {
+	width: 				430px;
+	margin-left:		50px;
+	display:			inline-block;
+	vertical-align:		middle; }
+
+#alertBox h2 {
+	margin:				0px; }
+
+#alertBox p {
+	font-size: 			15px; }
+
+#inscription {
+	width: 				506px;
+	min-height: 		500px;
+	margin: 			auto;
+	font-family: 		arial;
+	font-size: 			14px; }
+	
+#inscription h2 {
+	margin:				0px;
+	font-family: 		arial; }
+	
+#content.formColumn {
+	float: 				left;
+	width: 				300px; }
+	
+#content.logoColumn {
+	background-image: 	url(../images/nobelios_logo_normal.png);
+	width: 				196px;
+	height: 			200px; 
+	float: 				left;
+	margin-left: 		10px; 
+	border: 			0px solid #ABADB3; }
+	
+/* ---------------------------------------------------------------------------------------------------------- */	
+/*                                               Pied de page                                                 */		
+/* ---------------------------------------------------------------------------------------------------------- */
+	
+#footer {
+	background-color: 	#025EA9;
+	height: 			80px;
+	padding-top:		20px; }
+	
+#footer.center {
+	width: 				1024px;
+	margin: 			auto; }
+
+#footer.creativeCommonsLogo {
+	background-image: 	url(../images/icon_cc_logo.png);	
+	height: 			48px;
+	width: 				360px;
+	float: 				left; }
+	
+#footer.html5Css3Logo {
+	background-image: 	url(../images/icon_html5_css3_logo.png);	
+	height: 			48px;
+	width: 				84px;
+	float: 				right; }
+
+/* ---------------------------------------------------------------------------------------------------------- */	
+/*                               Fil d'ariane pour la navigation sur le site                                  */	
+/* ---------------------------------------------------------------------------------------------------------- */
+
+div.linker {
+	background-color:	#d9d9d9;
+	min-height: 		30px;
+	width: 				100%;
+	margin: 			auto; }
+
+div.linkerback {
+	background-color:	#F7F7F7;
+	float: 				left;
+	min-height:			30px; }
+
+div.linker ul, div.linker li {
+	list-style-type:	none;
+	margin:				0;
+	padding:			0;
+	line-height:		30px;
+	height:				30px; }
+
+/* droite des élements */
+	
+div.linker li {
+	float:				left;
+	background-image:	url(../images/ariane_left_mini.png);
+	background-repeat:	no-repeat;
+	font-family:		arial;
+	margin:				0 -6px 0 0;
+	cursor:				pointer; }
+
+div.linker li:hover {
+	background-position: 0 -30px; }
+
+div.linker li:hover end {
+	background-position: 0 0; }
+	
+div.linker li.begin {
+	float:				left;
+	background-image:	url(../images/ariane_begin_mini.png);
+	background-repeat:	no-repeat;
+	margin:				0 -6px 0 0; }
+
+div.linker li.begin:hover{
+	background-position: 0 -30px;
+}
+
+/* milieu des élements */
+
+div.linker li a {
+	float: 				left;
+	margin-left:		20px;
+	padding-left:		5px;
+	background-color:	#d9d9d9;
+	height:				100%; }
+
+div.linker li:hover a{
+	background-color:	#b6b6b6;
+}
+
+div.linker li a.begin {
+	float: 				left;
+	margin-left:		15px;
+	padding-left:		0px;
+	background-color:	#d9d9d9;
+	height:				100%; }
+
+div.linker li:hover a.begin{
+	background-color:	#b6b6b6;
+}
+
+/* droite des élements */
+	
+div.linker li span {
+	float: 				left;
+	background-image:	url(../images/ariane_right_mini.png);
+	background-repeat:	no-repeat;
+	width:				20px;
+	height:				100%; }
+
+div.linker li:hover span {
+	background-position: 0 -30px;
+}
+
+div.linker li span.end {
+	float: 				left;
+	background-image:	url(../images/ariane_end_mini.png);
+	background-repeat:	no-repeat; }
+
+/* ---------------------------------------------------------------------------------------------------------- */	
+/*                              LISTE D'ELEMENTS								                              */	
+/* ---------------------------------------------------------------------------------------------------------- */
+	
+div.pageListBig {
+	background-color: 	#d9d9d9;
+	height: 			100px;
+	width: 				100%;
+	margin: 			10px auto 0px auto;
+	padding:			0px;
+	font-family: 		arial; }
+	
+div.pageListBig:hover {
+	background-color: 	#b6b6b6;
+	cursor:				pointer; }
+	
+div.pageListBig.thumb {
+	border:				1px solid black;
+	background-position: bottom center;
+	height: 			78px;
+	width: 				98px;
+	margin:				10px;
+	float:				left; }
+	
+div.pageListBig.text {
+	height: 			80px;
+	margin:				10px 0;
+	float:				left; }	
+	
+div.pageListBig.text h2 {
+	padding: 			0px;
+	margin: 			0 0 4px 0;
+	font-family:		arial;
+	font-size:			20px;
+	font-weight:		normal; }
+
+div.pageListBig.text p {
+	padding-top:			10px; }
+	
+div.level {
+	float: 				left;
+	width:				150px;
+	height:				18px;
+	line-height:		18px;
+	font-variant: 		small-caps;	}
+
+div.level.legend {
+	float: 				left;
+	font-variant: 		small-caps;	}	
+	
+div.level.gauge {
+	float: 				left;
+	background-image:	url(../images/gauge.png);
+	background-repeat:	no-repeat;
+	margin:				2px 2px 2px 10px;
+	width:				66px;
+	height:				14px;
+	line-height:		18px;	}
+
+/* LES MENUS DU SITE */
+/*
+div.menu {
+	clear:				both;
+	font-family:		arial;
+	width:				100%;
+	margin:				auto;}
+
+div.menu.title {
+	width:				100%;
+	color:				#FFFFFF;
+	background-color:	#025ea9;
+	height:				40px;
+	line-height:		40px;
+	padding:			0 0 0 20px;
+	margin: 			10px 0 0 0;}
+
+div.menu.title h2 {
+	font-size:			20px;
+	font-variant: 		small-caps;
+	margin:				0px; }
+	
+div.menu.section {
+	background-color:	#d9d9d9;
+	float:				left;
+	height:				80px;
+	padding:			10px;
+	margin:				10px 5px 0 5px;
+	font-family:		arial;
+	width:				311px;
+	cursor:				pointer; }
+
+div.menu.section:hover {
+	background-color:	#b6b6b6; }
+	
+div.menu.section .thumb {
+	float:				left;
+	width:				80px;
+	height:				80px;
+	margin-right:		10px; }
+	
+div.menu.section.text {
+	float:				left;
+	height:				80px; }
+	
+div.menu.section.text h2 {
+	margin:				0px;
+	font-size:			16px; 
+	font-variant: 		small-caps; }
+*/
+	
+div.pageViewHeader {
+	height: 			150px;
+	width: 				100%;
+	margin:				0px auto 10px auto; }
+	
+div.pageViewHeader.thumb {
+	float:				right;
+	width:				200px;
+	height:				150px; }
+	
+#summary a {
+	color:				black;
+	text-decoration:	none; }
+
+#summary a:hover {
+	text-decoration:	underline; }
+
+/* SOMMAIRE ANIMATION */ 	
+	
+.ac-container label {
+	margin-top:				10px;
+    padding: 				0px 20px;
+    position: 				relative;
+    z-index: 				2;
+    display: 				block;
+    height: 				40px;
+    cursor: 				pointer;
+    color: 					black;
+    line-height: 			40px;
+    font-size: 				18px;
+	background-color:		#d9d9d9;
+	-webkit-box-sizing:		border-box;
+	-moz-box-sizing: 		border-box;
+	box-sizing: 			border-box;
+	background-repeat:		no-repeat;
+	background-position:	right center;
+	background-image:		url("../images/expand_options.png");
+	background-origin:		content-box;
+}
+
+.ac-container input{
+    display: 				none;
+}
+
+.ac-container section{
+    background: 			#d9d9d9;
+    overflow: 				hidden;
+    max-height: 			0px;
+    position: 				relative;
+    z-index: 				1;
+    -webkit-transition: 	max-height 0.3s ease-in-out;
+    -moz-transition: 		max-height 0.3s ease-in-out;
+    -o-transition: 			max-height 0.3s ease-in-out;
+    -ms-transition: 		max-height 0.3s ease-in-out;
+    transition: 			max-height 0.3s ease-in-out;
+}
+
+.ac-container input:checked ~ section{
+    -webkit-transition: 	max-height 0.5s ease-in-out;
+    -moz-transition:		max-height 0.5s ease-in-out;
+    -o-transition: 			max-height 0.5s ease-in-out;
+    -ms-transition: 		max-height 0.5s ease-in-out;
+    transition: 			max-height 0.5s ease-in-out;
+}
+
+.ac-container input:checked ~ section.ac-small{
+    max-height: 1000px; /*auto*/
+}
+
+.ac-container input:checked ~ label{
+   	background-image:		url("../images/unexpand_options.png");
+}
+
+.ac-container label:hover {
+	background-color:	#b6b6b6;
+}

@@ -1,0 +1,146 @@
+/*--------------------------------------------------*/
+/*  CSS: Fil d'ariane (arborescence de navigation)	*/
+/*	CREATION: 	17/06/2013							*/
+/*	MAJ: 		17/06/2013 - 17h00					*/
+/*--------------------------------------------------*/
+
+/* selecteur horizontal */
+
+div #breadcrumb {
+	width:					100%;
+	height: 				30px;
+	background-color: 		#D9D9D9;
+	margin-bottom: 			10px;
+}
+	
+div #breadcrumb ul {
+	display:				relative;
+	float:					left;
+	height: 				100%;
+	background-color:		#F7F7F7;
+	margin:					0;
+	padding:				0;
+	line-height:			30px;
+	list-style-type:		none;
+}
+
+div #breadcrumb li {
+	display:				relative;
+	float:					left;
+	height: 				100%;
+	background-image:		url(../images/ariane_left_mini.png);
+	background-repeat:		no-repeat;
+	margin:					0 -6px 0 0;
+	padding:				0;
+}
+
+div #breadcrumb li:hover {
+	background-position: 	0 -30px;
+	cursor:					pointer;
+}
+
+div #breadcrumb li:first-child {
+	background-image:		url(../images/ariane_begin_mini.png);
+}
+
+div #breadcrumb li:last-child:hover {
+	background-position: 	0 0px;
+	cursor:					default;
+	
+}
+
+div #breadcrumb li a {
+	float: 					left;
+	height:					100%;
+	background-color:		#d9d9d9;
+	margin-left:			20px;
+	padding-left:			5px;
+	font-family:			arial;
+	text-transform: 		lowercase;
+	text-transform: 		capitalize;
+	color:					black;
+	text-decoration:		none;
+}
+
+div #breadcrumb li:hover a {
+	background-color:		#b6b6b6;
+}
+
+div #breadcrumb li:first-child a {
+	margin-left:			5px;
+}
+
+div #breadcrumb li:last-child:hover a {
+	background-color:		#d9d9d9;
+}
+
+div #breadcrumb li span {
+	float: 					left;
+	width:					20px;
+	height:					100%;
+	background-image:		url(../images/ariane_right_mini.png);
+	background-repeat:		no-repeat;
+}
+
+div #breadcrumb li:hover span {
+	background-position: 	0 -30px;
+}
+
+div #breadcrumb li:last-child  span{
+	background-image:		url(../images/ariane_end_mini.png);
+	background-position: 	0 0;
+}	
+
+div #breadcrumb li:last-child:hover span{
+	background-position: 	0 0px;
+}	
+
+div #breadcrumb li img {
+	margin:					3px 0;
+}
+
+div #breadcrumb ul.menu {
+	display:				none;
+}
+
+div #breadcrumb ul li:hover  ul.menu {
+	position:				relative;
+	clear: 					left;
+	z-index:				5;
+	top:					100%;
+	width:					0px;
+	display:				block;
+}
+
+div #breadcrumb ul.menu li {
+	background:				none;
+	clear: 					left;
+	display:				block;
+	position:				relative;
+	margin:					0px;
+	padding:				0px;
+	width:					150px;
+	height:					30px;
+	padding-left:			10px;
+	left:					-10px;
+}
+
+div #breadcrumb ul.menu li:first-child {
+	padding-top:			5px;
+}
+
+div #breadcrumb ul.menu a {
+	background-color:		#d9d9d9;
+	display:				block;
+	padding:				0px 10px;
+	margin:					0px;
+	height:					100%;
+	width:					100%;
+}
+
+div #breadcrumb ul.menu a:hover {
+	background-color:		#3399ff;
+}
+
+/* Selecteur vertical */
+

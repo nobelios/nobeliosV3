@@ -1,0 +1,519 @@
+<!doctype html>
+
+<html lang="fr">
+	
+	<head>
+		<meta charset="utf-8" />
+		
+		<link href="../theme/lightblue/css/dashboard/main.css" 	rel="stylesheet" type="text/css" />
+		
+		<link href="../theme/lightblue/css/general.css" 		rel="stylesheet" type="text/css">
+		<link href="../theme/lightblue/css/breadcrumb.css" 		rel="stylesheet" type="text/css" />
+		<link href="../theme/lightblue/css/page_display.css" 	rel="stylesheet" type="text/css" />
+		
+		<link href="../theme/lightblue/css/dashboard/menu.css" 	rel="stylesheet" type="text/css" />
+		<link href="../theme/lightblue/css/date.css" 			rel="stylesheet" type="text/css" />
+		<link href="../theme/lightblue/css/page.css" 			rel="stylesheet" type="text/css" />
+	
+		<title>Panneau de controle</title>
+	</head>
+	
+	<body>
+		<div id="main_wrapper">
+			
+			<header>
+				<div id="header_wrapper">
+					<a class="logo" href="http://nobelios.com"></a>
+					
+					<!-- MENU UTILISATEUR !-->
+					<nav>
+						<ul>
+							
+							<li id="user_btn">
+								<img class="avatar" src="../theme/lightblue/images/avatar.jpg" alt="" />
+								Nobelios
+							</li>
+							
+							<li>
+								<ul id="user_menu">
+									<li><a href=""><img src="../theme/lightblue/images/dashboard_icon.png" alt="" />Tableau de bord</a></li>
+									<li><a href=""><img src="../theme/lightblue/images/fav_icon.png" alt="" />Favoris</a></li>
+									<li><a href=""><img src="../theme/lightblue/images/mail_icon.png" alt="" />Messages</a></li>
+									<li><a href=""><img src="../theme/lightblue/images/parameters_icon.png" alt="" />Paramètres</a></li>
+									<li class="separator"></li>
+									<li><a href=""><img src="../theme/lightblue/images/connection_icon.png" alt="" />Déconnexion</a></li>
+								</ul>
+							</li>
+						</ul>
+						<!-- FIN menu utilisateur !-->
+						
+					</nav>
+				</div>
+			</header>
+			
+			<div id="body_wrapper">
+			
+				<!-- Affichage du fil d'ariane en html !-->
+				<div id="breadcrumb">
+					<ul>
+						<li><a href="?cat=1"><img src="../theme/lightblue/images/home_icon.png" alt="" title="Accueil" /></a><span class="end"></span></li><li><a href="?cat=2">actualite</a><span class="end"></span></li></ul>
+				</div>
+				
+				
+				<!-- [START] partie individuelle !-->
+				
+				
+				<section id="page">
+					
+					<!--
+					<div class="header">
+						<div class="date_wrapper">
+							<div class="day">23</div>
+							<div class="month">2013</div>
+							<div class="year">NOVEMBRE</div>
+						</div>
+						<div class="text"><h2>TITRE DE LA PAGE</h2></div>
+						<div class="menu">
+							<img src="../theme/lightblue/images/historic_icon.png"/>
+							<img src="../theme/lightblue/images/print_icon.png"/>
+							<img src="../theme/lightblue/images/fav_icon_menu.png"/>
+							<img src="../theme/lightblue/images/pdf_icon.png"/>													
+						</div>
+						<div class="page_thumb" style="background-image: url(../ressources/FD1FA202AF9E2BBA.jpg);"></div>
+					</div>
+					<img src="../theme/lightblue/images/google_plus_icon_grey.png"/>
+					<img src="../theme/lightblue/images/facebook_icon_grey.png"/>
+					<img src="../theme/lightblue/images/twitter_icon_grey.png"/>
+					!-->
+					
+					<div class="header">
+						<div class="date_wrapper">
+							<div class="day">23</div>
+							<div class="month">2013</div>
+							<div class="year">NOVEMBRE</div>
+						</div>
+						<div class="text"><h2>TITRE DE LA PAGE</h2></div>
+						<div class="menu">
+							<img src="../theme/lightblue/images/historic_icon.png" alt="" />
+							<img src="../theme/lightblue/images/print_icon.png" alt="" />
+							<img src="../theme/lightblue/images/fav_icon_menu.png" alt="" />
+							<img src="../theme/lightblue/images/pdf_icon.png" alt="" />													
+						</div>
+						<div class="page_thumb" style="background-image: url(../ressources/FD1FA202AF9E1ACA.jpg);"></div>
+						<div style="position: relative; left: 10px; top: -45px; z-index: 2; height:	34px; width: 400px;">	
+							<a href=""><img src="../theme/lightblue/images/facebook_icon.png" alt="" /></a>
+							<a href=""><img src="../theme/lightblue/images/twitter_icon.png" alt="" /></a>
+							<a href=""><img src="../theme/lightblue/images/google_plus_icon.png" alt="" /></a>
+							<a href=""><img src="../theme/lightblue/images/comment_icon.png" alt="" /></a>
+						</div>
+					</div>
+					
+					<!--
+					<img src="../theme/lightblue/images/google_plus_icon_grey.png"/>
+					<img src="../theme/lightblue/images/facebook_icon_grey.png"/>
+					<img src="../theme/lightblue/images/twitter_icon_grey.png"/>
+					!-->
+					
+					
+					
+					
+					
+					
+					
+					<div id="reader">
+
+						<div id="summary" class="ac-container">
+							<div>
+								<input id="ac-1" name="summary" type="checkbox" />
+								<label for="ac-1">SOMMAIRE</label>
+								<section class="ac-small">
+									<ol>
+										<li><a href="#1">Affichage sans colonnes</a>
+											<ol>
+												<li><a href="#2">paragraphe justifié</a></li>
+												<li><a href="#3">paragraphe aligné à gauche</a></li>
+												<li><a href="#4">paragraphe centré</a></li>
+												<li><a href="#5">Paragraphe aligné à droite bis</a></li>
+											</ol>
+										</li>
+										<li><a href="#6">Affichage avec colonnes</a>
+											<ol>
+												<li><a href="#7">Paragraphe justifié</a></li>
+												<li><a href="#8">Paragraphe aligné à gauche</a></li>
+												<li><a href="#9">Paragraphe centré</a></li>
+												<li><a href="#10">Paragraphe aligné à droite</a></li>
+											</ol>
+										</li>
+										<li><a href="#11">Paragraphe comportant des images sans colonne</a>
+											<ol>
+												<li><a href="#12">Paragraphe comportant des images sans colonne</a>
+													<ol>
+														<li><a href="#13">Paragraphe comportant des images sans colonne</a></li>
+													</ol>
+												</li>
+												<li><a href="#14">Paragraphe comportant des images avec colonne</a></li>
+											</ol>
+										</li>
+										<li><a href="#15">Listes</a></li>
+										<li><a href="#16">Images</a></li>
+									</ol>
+								</section>
+							</div>
+						</div>				
+		
+		
+						<div id="page_content">		
+
+							<h2 id="2">Affichage sans colonnes</h2>
+
+							<h3 id="3">paragraphe justifié</h3>
+
+							<div>
+								<p class="justify">
+									consequuntur magni dolores eos, qui ratione voluptatem sequi nesciunt, neque porro quisquam est, qui dolorem 
+									ipsum, quia dolor sit, amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt, ut 
+									labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam 
+									corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit, 
+									qui in ea voluptate velit esse, quam nihil molestiae consequatur, vel illum, qui dolorem eum fugiat, quo voluptas 
+									nulla pariatur? [33] At vero eos et accusamus et iusto odio dignissimos ducimus, qui blanditiis praesentium 
+									voluptatum deleniti atque corrupti, quos dolores et quas molestias excepturi sint, obcaecati cupiditate non 
+									consequuntur magni dolores eos, qui ratione voluptatem sequi nesciunt, neque porro quisquam est, qui dolorem 
+									ipsum, quia dolor sit, amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt, ut 
+									labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam 
+									corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit, 
+									qui in ea voluptate velit esse, quam nihil molestiae consequatur, vel illum, qui dolorem eum fugiat, quo voluptas 
+									nulla pariatur? [33] At vero eos et accusamus et iusto odio dignissimos ducimus, qui blanditiis praesentium 
+									voluptatum deleniti atque corrupti, quos dolores et quas molestias excepturi sint, obcaecati cupiditate non 
+								</p>
+							</div>
+
+							<h3 id="4">paragraphe aligné à gauche</h3>
+
+							<div>
+								<p class="left">
+									consequuntur magni dolores eos, qui ratione voluptatem sequi nesciunt, neque porro quisquam est, qui dolorem 
+									ipsum, quia dolor sit, amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt, ut 
+									labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam 
+									corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit, 
+									qui in ea voluptate velit esse, quam nihil molestiae consequatur, vel illum, qui dolorem eum fugiat, quo voluptas 
+									nulla pariatur? [33] At vero eos et accusamus et iusto odio dignissimos ducimus, qui blanditiis praesentium 
+									voluptatum deleniti atque corrupti, quos dolores et quas molestias excepturi sint, obcaecati cupiditate non 
+									consequuntur magni dolores eos, qui ratione voluptatem sequi nesciunt, neque porro quisquam est, qui dolorem 
+									ipsum, quia dolor sit, amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt, ut 
+									labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam 
+									corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit, 
+									qui in ea voluptate velit esse, quam nihil molestiae consequatur, vel illum, qui dolorem eum fugiat, quo voluptas 
+									nulla pariatur? [33] At vero eos et accusamus et iusto odio dignissimos ducimus, qui blanditiis praesentium 
+									voluptatum deleniti atque corrupti, quos dolores et quas molestias excepturi sint, obcaecati cupiditate non 
+								</p>
+							</div>
+
+							<h3 id="5">paragraphe centré</h3>
+
+							<div>
+								<p class="center">
+									consequuntur magni dolores eos, qui ratione voluptatem sequi nesciunt, neque porro quisquam est, qui dolorem 
+									ipsum, quia dolor sit, amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt, ut 
+									labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam 
+									corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit, 
+									qui in ea voluptate velit esse, quam nihil molestiae consequatur, vel illum, qui dolorem eum fugiat, quo voluptas 
+									nulla pariatur? [33] At vero eos et accusamus et iusto odio dignissimos ducimus, qui blanditiis praesentium 
+									voluptatum deleniti atque corrupti, quos dolores et quas molestias excepturi sint, obcaecati cupiditate non 
+									consequuntur magni dolores eos, qui ratione voluptatem sequi nesciunt, neque porro quisquam est, qui dolorem 
+									ipsum, quia dolor sit, amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt, ut 
+									labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam 
+									corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit, 
+									qui in ea voluptate velit esse, quam nihil molestiae consequatur, vel illum, qui dolorem eum fugiat, quo voluptas 
+									nulla pariatur? [33] At vero eos et accusamus et iusto odio dignissimos ducimus, qui blanditiis praesentium 
+									voluptatum deleniti atque corrupti, quos dolores et quas molestias excepturi sint, obcaecati cupiditate non 
+								</p>
+							</div>
+
+							<h3 id="6">Paragraphe aligné à droite bis</h3>
+
+							<div>
+								<p class="right">
+									consequuntur magni dolores eos, qui ratione voluptatem sequi nesciunt, neque porro quisquam est, qui dolorem 
+									ipsum, quia dolor sit, amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt, ut 
+									labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam 
+									corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit, 
+									qui in ea voluptate velit esse, quam nihil molestiae consequatur, vel illum, qui dolorem eum fugiat, quo voluptas 
+									nulla pariatur? [33] At vero eos et accusamus et iusto odio dignissimos ducimus, qui blanditiis praesentium 
+									voluptatum deleniti atque corrupti, quos dolores et quas molestias excepturi sint, obcaecati cupiditate non 
+									consequuntur magni dolores eos, qui ratione voluptatem sequi nesciunt, neque porro quisquam est, qui dolorem 
+									ipsum, quia dolor sit, amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt, ut 
+									labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam 
+									corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit, 
+									qui in ea voluptate velit esse, quam nihil molestiae consequatur, vel illum, qui dolorem eum fugiat, quo voluptas 
+									nulla pariatur? [33] At vero eos et accusamus et iusto odio dignissimos ducimus, qui blanditiis praesentium 
+									voluptatum deleniti atque corrupti, quos dolores et quas molestias excepturi sint, obcaecati cupiditate non 
+								</p>
+							</div>
+
+							<h2 id="7">Affichage avec colonnes</h2>
+
+							<h3 id="8">Paragraphe justifié</h3>
+
+							<div class="columne2">
+								<p class="justify">
+									consequuntur magni dolores eos, qui ratione voluptatem sequi nesciunt, neque porro quisquam est, qui dolorem 
+									ipsum, quia dolor sit, amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt, ut 
+									labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam 
+									corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit, 
+									qui in ea voluptate velit esse, quam nihil molestiae consequatur, vel illum, qui dolorem eum fugiat, quo voluptas 
+									nulla pariatur? [33] At vero eos et accusamus et iusto odio dignissimos ducimus, qui blanditiis praesentium 
+									voluptatum deleniti atque corrupti, quos dolores et quas molestias excepturi sint, obcaecati cupiditate non 
+									consequuntur magni dolores eos, qui ratione voluptatem sequi nesciunt, neque porro quisquam est, qui dolorem 
+									ipsum, quia dolor sit, amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt, ut 
+									labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam 
+									corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit, 
+									qui in ea voluptate velit esse, quam nihil molestiae consequatur, vel illum, qui dolorem eum fugiat, quo voluptas 
+									nulla pariatur? [33] At vero eos et accusamus et iusto odio dignissimos ducimus, qui blanditiis praesentium 
+									voluptatum deleniti atque corrupti, quos dolores et quas molestias excepturi sint, obcaecati cupiditate non 
+								</p>
+							</div>
+
+							<h3 id="9">Paragraphe aligné à gauche</h3>
+
+							<div class="columne3">
+								<p class="left">
+									consequuntur magni dolores eos, qui ratione voluptatem sequi nesciunt, neque porro quisquam est, qui dolorem 
+									ipsum, quia dolor sit, amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt, ut 
+									labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam 
+									corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit, 
+									qui in ea voluptate velit esse, quam nihil molestiae consequatur, vel illum, qui dolorem eum fugiat, quo voluptas 
+									nulla pariatur? [33] At vero eos et accusamus et iusto odio dignissimos ducimus, qui blanditiis praesentium 
+									voluptatum deleniti atque corrupti, quos dolores et quas molestias excepturi sint, obcaecati cupiditate non 
+									consequuntur magni dolores eos, qui ratione voluptatem sequi nesciunt, neque porro quisquam est, qui dolorem 
+									ipsum, quia dolor sit, amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt, ut 
+									labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam 
+									corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit, 
+									qui in ea voluptate velit esse, quam nihil molestiae consequatur, vel illum, qui dolorem eum fugiat, quo voluptas 
+									nulla pariatur? [33] At vero eos et accusamus et iusto odio dignissimos ducimus, qui blanditiis praesentium 
+									voluptatum deleniti atque corrupti, quos dolores et quas molestias excepturi sint, obcaecati cupiditate non 
+								</p>
+							</div>
+
+							<h3 id="10">Paragraphe centré</h3>
+
+							<div class="columne3">
+								<p class="center">
+									consequuntur magni dolores eos, qui ratione voluptatem sequi nesciunt, neque porro quisquam est, qui dolorem 
+									ipsum, quia dolor sit, amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt, ut 
+									labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam 
+									corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit, 
+									qui in ea voluptate velit esse, quam nihil molestiae consequatur, vel illum, qui dolorem eum fugiat, quo voluptas 
+									nulla pariatur? [33] At vero eos et accusamus et iusto odio dignissimos ducimus, qui blanditiis praesentium 
+									voluptatum deleniti atque corrupti, quos dolores et quas molestias excepturi sint, obcaecati cupiditate non 
+									consequuntur magni dolores eos, qui ratione voluptatem sequi nesciunt, neque porro quisquam est, qui dolorem 
+									ipsum, quia dolor sit, amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt, ut 
+									labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam 
+									corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit, 
+									qui in ea voluptate velit esse, quam nihil molestiae consequatur, vel illum, qui dolorem eum fugiat, quo voluptas 
+									nulla pariatur? [33] At vero eos et accusamus et iusto odio dignissimos ducimus, qui blanditiis praesentium 
+									voluptatum deleniti atque corrupti, quos dolores et quas molestias excepturi sint, obcaecati cupiditate non 
+								</p>
+							</div>
+
+							<h3 id="11">Paragraphe aligné à droite</h3>
+
+							<div class="columne2">
+								<p class="right">
+									consequuntur magni dolores eos, qui ratione voluptatem sequi nesciunt, neque porro quisquam est, qui dolorem 
+									ipsum, quia dolor sit, amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt, ut 
+									labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam 
+									corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit, 
+									qui in ea voluptate velit esse, quam nihil molestiae consequatur, vel illum, qui dolorem eum fugiat, quo voluptas 
+									nulla pariatur? [33] At vero eos et accusamus et iusto odio dignissimos ducimus, qui blanditiis praesentium 
+									voluptatum deleniti atque corrupti, quos dolores et quas molestias excepturi sint, obcaecati cupiditate non 
+									consequuntur magni dolores eos, qui ratione voluptatem sequi nesciunt, neque porro quisquam est, qui dolorem 
+									ipsum, quia dolor sit, amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt, ut 
+									labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam 
+									corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit, 
+									qui in ea voluptate velit esse, quam nihil molestiae consequatur, vel illum, qui dolorem eum fugiat, quo voluptas 
+									nulla pariatur? [33] At vero eos et accusamus et iusto odio dignissimos ducimus, qui blanditiis praesentium 
+									voluptatum deleniti atque corrupti, quos dolores et quas molestias excepturi sint, obcaecati cupiditate non 
+								</p>
+							</div>
+
+							<h2 id="12">Paragraphe comportant des images sans colonne</h2>
+
+							<h3 id="13">Paragraphe comportant des images sans colonne</h3>
+
+							<h4 id="14">Paragraphe comportant des images sans colonne</h4>
+
+							<div>
+								<p class="justify">
+									<img class="left" alt="" src="http://www.nobelios.com/v3/ressources/thumb/FD1FA202AF9E1929.jpg">
+									<img class="left" alt="" src="http://www.nobelios.com/v3/ressources/thumb/FD1FA202AF9E1929.jpg">
+									consequuntur magni dolores eos, qui ratione voluptatem sequi nesciunt, neque porro quisquam est, qui dolorem 
+									ipsum, quia dolor sit, amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt, ut 
+									labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam 
+									corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit, 
+									qui in ea voluptate velit esse, quam nihil molestiae consequatur, vel illum, qui dolorem eum fugiat, quo voluptas 
+									nulla pariatur? [33] At vero eos et accusamus et iusto odio dignissimos ducimus, qui blanditiis praesentium
+									voluptatum deleniti atque corrupti, quos dolores et quas molestias excepturi sint, obcaecati cupiditate non 
+									consequuntur magni dolores eos, qui ratione voluptatem sequi nesciunt, neque porro quisquam est, qui dolorem 
+									ipsum, quia dolor sit, amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt, ut 
+									labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam 
+									corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit,
+									<img class="left" alt="" src="http://www.nobelios.com/v3/ressources/thumb/FD1FA202AF9E1929.jpg">		
+									<img class="right" alt="" src="http://www.nobelios.com/v3/ressources/thumb/FD1FA202AF9E1929.jpg">
+									ipsum, quia dolor sit, amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt, ut 
+									labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam 
+									corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit, 
+									qui in ea voluptate velit esse, quam nihil molestiae consequatur, vel illum, qui dolorem eum fugiat, quo voluptas 
+									nulla pariatur? [33] At vero eos et accusamus et iusto odio dignissimos ducimus, qui blanditiis praesentium 
+									voluptatum deleniti atque corrupti, quos dolores et quas molestias excepturi sint, obcaecati cupiditate non 
+									consequuntur magni dolores eos, qui ratione voluptatem sequi nesciunt, neque porro quisquam est, qui dolorem 
+									ipsum, quia dolor sit, amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt, ut 
+									labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam 
+									ipsum, quia dolor sit, amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt, ut 
+									labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam
+									corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit, 
+									qui in ea voluptate velit esse, quam nihil molestiae consequatur, vel illum, qui dolorem eum fugiat, quo voluptas 
+									nulla pariatur? [33] At vero eos et accusamus et iusto odio dignissimos ducimus, qui blanditiis praesentium 
+									voluptatum deleniti atque corrupti, quos dolores et quas molestias excepturi sint, obcaecati cupiditate non 
+									consequuntur magni dolores eos, qui ratione voluptatem sequi nesciunt, neque porro quisquam est, qui dolorem 
+									ipsum, quia dolor sit, amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt, ut 
+									labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam 
+									qui in ea voluptate velit esse, quam nihil molestiae consequatur, vel illum, qui dolorem eum fugiat, quo voluptas 
+									nulla pariatur? [33] At vero eos et accusamus et iusto odio dignissimos ducimus, qui blanditiis praesentium 
+									voluptatum deleniti atque corrupti, quos dolores et quas molestias excepturi sint, obcaecati cupiditate non 
+								</p>
+							</div>
+
+							<h3 id="15">Paragraphe comportant des images avec colonne</h3>
+
+							<div class="columne2">
+								<p class="justify">
+									<img class="left" alt="" src="http://www.nobelios.com/v3/ressources/thumb/FD1FA202AF9E1929.jpg">
+									consequuntur magni dolores eos, qui ratione voluptatem sequi nesciunt, neque porro quisquam est, qui dolorem 
+									ipsum, quia dolor sit, amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt, ut 
+									labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam 
+									corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit, 
+									qui in ea voluptate velit esse, quam nihil molestiae consequatur, vel illum, qui dolorem eum fugiat, quo voluptas 
+									nulla pariatur? [33] At vero eos et accusamus et iusto odio dignissimos ducimus, qui blanditiis praesentium
+									voluptatum deleniti atque corrupti, quos dolores et quas molestias excepturi sint, obcaecati cupiditate non 
+									consequuntur magni dolores eos, qui ratione voluptatem sequi nesciunt, neque porro quisquam est, qui dolorem 
+									ipsum, quia dolor sit, amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt, ut 
+									labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam 
+									corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit,	
+									<img class="right" alt="" src="http://www.nobelios.com/v3/ressources/thumb/FD1FA202AF9E1929.jpg">
+									ipsum, quia dolor sit, amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt, ut 
+									labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam 
+									corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit, 
+									qui in ea voluptate velit esse, quam nihil molestiae consequatur, vel illum, qui dolorem eum fugiat, quo voluptas 
+									nulla pariatur? [33] At vero eos et accusamus et iusto odio dignissimos ducimus, qui blanditiis praesentium 
+									voluptatum deleniti atque corrupti, quos dolores et quas molestias excepturi sint, obcaecati cupiditate non 
+									consequuntur magni dolores eos, qui ratione voluptatem sequi nesciunt, neque porro quisquam est, qui dolorem 
+									ipsum, quia dolor sit, amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt, ut 
+									labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam 
+									ipsum, quia dolor sit, amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt, ut 
+									labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam 
+									corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit, 
+									qui in ea voluptate velit esse, quam nihil molestiae consequatur, vel illum, qui dolorem eum fugiat, quo voluptas 
+									nulla pariatur? [33] At vero eos et accusamus et iusto odio dignissimos ducimus, qui blanditiis praesentium 
+									voluptatum deleniti atque corrupti, quos dolores et quas molestias excepturi sint, obcaecati cupiditate non 
+									consequuntur magni dolores eos, qui ratione voluptatem sequi nesciunt, neque porro quisquam est, qui dolorem 
+									ipsum, quia dolor sit, amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt, ut 
+									labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam 
+									qui in ea voluptate velit esse, quam nihil molestiae consequatur, vel illum, qui dolorem eum fugiat, quo voluptas 
+									nulla pariatur? [33] At vero eos et accusamus et iusto odio dignissimos ducimus, qui blanditiis praesentium 
+									voluptatum deleniti atque corrupti, quos dolores et quas molestias excepturi sint, obcaecati cupiditate non 
+								</p>
+								<p class="center"><img class="center" alt="" src="http://www.nobelios.com/v3/ressources/thumb/FD1FA202AF9E1929.jpg"></p>
+							</div>
+
+							<h2 id="16">Listes</h2>
+
+							Liste normale
+							<ul>
+								<li>Element 1</li>
+								<li>Element 2</li>
+								<li>Element 3</li>
+								<li>Element 4</li>
+								<li>Element 5</li>
+								<li>Element 6</li>
+								<li>Element 7</li>
+								<li>Element 8</li>
+								<li>Element 9</li>
+							</ul>
+
+							Liste divisée en colonne
+							<ul style="text-align: justify;	columns: 2;	-webkit-columns: 2;	-moz-columns: 2; column-gap: 2em; -webkit-gap: 2em; -moz-column-gap: 2em;">
+								<li>Element 1</li>
+								<li>Element 2</li>
+								<li>Element 3</li>
+								<li>Element 4</li>
+								<li>Element 5</li>
+								<li>Element 6</li>
+								<li>Element 7</li>
+								<li>Element 8</li>
+								<li>Element 9</li>
+							</ul>
+
+							<h2 id="17">Images</h2>
+
+							<div>
+								<p class="center">
+									<img class="right" alt="" src="http://www.nobelios.com/v3/ressources/thumb/FD1FA202AF9E1929.jpg">
+									<img class="center" alt="" src="http://www.nobelios.com/v3/ressources/thumb/FD1FA202AF9E1929.jpg">
+									<img class="left" alt="" src="http://www.nobelios.com/v3/ressources/thumb/FD1FA202AF9E1929.jpg">
+								</p>
+								<p class="justify">
+									labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam 
+									corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit, 
+									qui in ea voluptate velit esse, quam nihil molestiae consequatur, vel illum, qui dolorem eum fugiat, quo voluptas 
+									nulla pariatur? [33] At vero eos et accusamus et iusto odio dignissimos ducimus, qui blanditiis praesentium 
+									voluptatum deleniti atque corrupti, quos dolores et quas molestias excepturi sint, obcaecati cupiditate non 
+									consequuntur magni dolores eos, qui ratione voluptatem sequi nesciunt, neque porro quisquam est, qui dolorem 
+									ipsum, quia dolor sit, amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt, ut 
+									labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam 
+									ipsum, quia dolor sit, amet, <span class="red">consectetur, adipisci velit</span>, sed quia non numquam eius modi tempora incidunt, ut 
+									labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam 
+									corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit, 
+									qui in ea voluptate velit esse, quam nihil molestiae consequatur, vel illum, qui dolorem eum fugiat, quo voluptas 
+									nulla pariatur? [33] At vero eos et accusamus et iusto odio dignissimos ducimus, qui blanditiis praesentium 
+									voluptatum deleniti atque corrupti, quos dolores et quas molestias excepturi sint, obcaecati cupiditate non 
+									consequuntur magni dolores eos, qui ratione voluptatem sequi nesciunt, neque porro quisquam est, qui dolorem 
+									ipsum, quia dolor sit, amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt, ut 
+									labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam 
+									qui in ea voluptate velit esse, quam nihil molestiae consequatur, vel illum, qui dolorem eum fugiat, quo voluptas 
+									nulla pariatur? [33] At vero eos et accusamus et iusto odio dignissimos ducimus, qui blanditiis praesentium 
+									voluptatum deleniti atque corrupti, quos dolores et quas molestias excepturi sint, obcaecati cupiditate non 
+								</p>
+								<p class="center">
+									<img class="center" alt="" src="http://www.nobelios.com/v3/ressources/thumb/FD1FA202AF9E1929.jpg">
+									<img class="center" alt="" src="http://www.nobelios.com/v3/ressources/thumb/FD1FA202AF9E1929.jpg">
+									<img class="center" alt="" src="http://www.nobelios.com/v3/ressources/thumb/FD1FA202AF9E1929.jpg">
+								</p>
+							</div>
+						
+						</div>
+					
+					</div>
+					
+				</section>
+				
+				<!-- [END] fin partie individuelle !-->
+				
+			</div>
+			
+			<footer>
+				<div style="width: 1000px; margin: auto;">
+					<div style="height: 48px; width: 204px; float: left; background-image: url(../theme/lightblue/images/icon_cc_footer.png);"></div>
+					<div style="width: 10px; height: 42px; float: left;"></div>
+					<div style="height: 48px; width: 42px; float: left; background-image: url(../theme/lightblue/images/icon_cc_by_fr_footer.png);"></div>
+					<div style="width: 10px; height: 42px; float: left;"></div>
+					<div style="height: 48px; width: 42px; float: left; background-image: url(../theme/lightblue/images/icon_cc_s_footer.png);"></div>
+					<div style="width: 10px; height: 42px; float: left;"></div>
+					<div style="height: 48px; width: 42px; float: left; background-image: url(../theme/lightblue/images/icon_cc_eq_footer.png);"></div>
+					<div style="clear:left;"></div>
+					<div style="height: 10px;"></div>
+				</div>
+			</footer>
+		</div>
+	</body>
+
+</html>

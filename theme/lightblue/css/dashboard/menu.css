@@ -1,0 +1,100 @@
+/* MENU PRESENT DANS LE HEADER DU SITE - gestion du membre -
+
+/* boite contenant le menu replié */
+header nav {
+	display: 				block;
+	float:					right;
+	height:					44px;
+	width:					250px;
+}
+
+/* conteneur de liste principal */
+header nav ul {
+	position:				relative;
+	height:					100%;
+    list-style: 			none;
+	padding: 				0;
+    margin:					0;
+}
+
+header nav ul:hover {
+ 	background-color:		rgba(255,255,255,0.3);
+}
+
+/* ligne de liste, bouton utilisateur */
+header nav ul li#user_btn {
+	height:					100%;
+	margin:					0px;
+	padding-right:			8px;
+	-webkit-box-sizing:		border-box;
+	-moz-box-sizing: 		border-box;
+	box-sizing: 			border-box; 
+	background-repeat:		no-repeat;
+	background-position:	right center;
+	background-image:		url("../../images/expand_options.png");
+	background-origin:		content-box;
+	cursor:					pointer;
+ 	background-color:		rgba(255,255,255,0);
+}
+
+/* avatar de l'utilisateur */
+header nav ul li#user_btn img.avatar {
+	height:					44px;
+	width:					44px;
+}
+
+/* conteneur de la liste des liens - caché par défaut - */
+header nav ul ul {
+	display:				none;
+}
+
+/* conteneur de la liste des liens - affiché avec fond blanc au survol - */
+header nav ul:hover ul#user_menu {
+	z-index:				100;
+	display:				block;
+	background-color:		white;
+	border:					1px solid black;
+}	
+
+/* éléments de liste - liens du menu - */
+header nav ul ul li {
+	height:					35px;
+	line-height:			35px;
+}
+
+/* séparateur - entre les différentes parties du menu - */
+header nav ul ul li.separator {
+    height:				1px;
+	background-color:	#000000;
+	margin:				0 10px;
+	padding:			0;
+}
+
+header nav ul ul li a {
+	display: 			block;
+	padding:			0 10px;
+	text-decoration: 	none;
+	color:				black;
+}
+
+header nav ul ul li a:hover {
+	background-color:	#3399ff;
+}
+
+/* icones devant les liens du menu */ 
+header nav img {
+	vertical-align:		middle;
+	margin-right:		5px;
+	border:				none;
+}
+
+/* annulation du float de header nav */
+header nav:after {
+	display: 			block;
+	visibility:			hidden;
+	clear:				both;
+}
+
+
+/* MENUS DU FIL D'ARIANE */
+

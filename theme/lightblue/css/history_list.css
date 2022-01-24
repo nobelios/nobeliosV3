@@ -1,0 +1,122 @@
+/* LISTE HISTORIQUE */
+
+hr {
+	height: 5px;
+	background-color: #D9D9D9;
+	border: 0px none;
+}
+
+div.version {
+	margin-bottom:					10px;
+	height:							70px;
+	-webkit-box-sizing:				border-box;
+	-moz-box-sizing: 				border-box;
+	box-sizing: 					border-box; 
+	overflow: 						hidden;
+}
+
+div.version:after {
+	content:						" ";
+	width:							0px;
+	height:							0px;
+	clear:							left;
+}
+
+/* Animation des options */
+@keyframes optionSlide
+{
+	from {top: -100%;}
+	to {top: -0px;}
+}
+
+@-webkit-keyframes optionSlide /* Safari and Chrome */
+{
+	from {top: -100%;}
+	to {top: -0px;}
+}
+
+@keyframes optionZoom
+{
+	from {background-size: 40px 40px;}
+	to {background-size: 50px 50px;}
+}
+
+@-webkit-keyframes optionZoom /* Safari and Chrome */
+{
+	from {background-size: 40px 40px;}
+	to {background-size: 50px 50px;}
+}
+
+div.version div.date_wrapper_time  {
+	float:							left;
+	height:							100%;
+}
+
+div.version div.menu {
+	top:							-100%;
+	position:						relative;
+	-webkit-box-sizing:				border-box;
+	-moz-box-sizing: 				border-box;
+	box-sizing: 					border-box; 
+	padding-left:					10px;
+	height:							100%;
+	overflow: 						hidden;
+	background-color: 				#d9d9d9;
+}
+
+div.version div.menu a {
+	width:							70px;
+	height:							70px;
+	display:						inline-block;
+	-webkit-box-sizing:				border-box;
+	-moz-box-sizing: 				border-box;
+	box-sizing: 					border-box; 
+	background-position: 			50% 15%;
+	background-repeat:				no-repeat;
+	text-align:						center;
+	vertical-align:					bottom;
+	background-size: 				40px 40px;
+	padding-top:					45px;
+	font-size:						0.75em;
+	text-decoration:				none;
+	color:							rgba(100, 100, 100, 1);
+	transition:						all 0.2s;
+}
+
+div.version div.menu a:hover {
+	background-color: 				#3399ff;
+	animation: 						optionZoom 0.2s;
+	-webkit-animation: 				optionZoom 0.2s; /* Safari and Chrome */
+	background-size:				50px 50px;
+	font-size:						0.75em;
+	text-decoration:				underline;
+	color:							rgba(100, 100, 100, 1);
+}
+
+div.version div.info {
+	top:							-100%;
+	position:						relative;
+	-webkit-box-sizing:				border-box;
+	-moz-box-sizing: 				border-box;
+	box-sizing: 					border-box; 
+	padding-left:					10px;
+	height:							100%;
+	overflow: 						hidden;
+}
+
+div.version div.menu, 
+div.version div.info {
+	top:							-100%;
+	transition:						all 0.6s;
+}
+div.version:hover div.menu, 
+div.version:hover div.info {
+	top:							0px;
+	animation: 						optionSlide 0.6s;
+	-webkit-animation: 				optionSlide 0.6s; /* Safari and Chrome */
+}
+
+div.version div.info p  {
+	margin:							0px;
+	padding:						0px;
+}
